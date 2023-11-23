@@ -39,14 +39,14 @@ const swiper = new swiper('.swiper-container', {
   keyboard: true,
   breakpoints: {
     767: {
-      slidesPerView: 1,
+      slidesPerView: 2,
       setWrapperSize: true
     }
   }
 })
 
 /* ScrollReveal: Mostrar elementos quando der scroll na página */
-const scrollReveal = scrollReveal({
+const scrollReveal = ScrollReveal({
   origin: 'top',
   distance: '30px',
   duration: 700,

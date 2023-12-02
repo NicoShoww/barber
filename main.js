@@ -33,7 +33,7 @@ function changeHeaderWhenScroll() {
 /* Testimonials carousel slider swiper */
 if (document.querySelector('.swiper-container')) {
 const swiper = new Swiper('.swiper-container', {
-  slidesPerView: 2,
+  slidesPerView: 1,
   pagination: {
     el: '.swiper-pagination'
   },
@@ -41,7 +41,7 @@ const swiper = new Swiper('.swiper-container', {
   breakpoints: {
     767: {
       slidesPerView: 2,
-      setWrapperSize: True
+      setWrapperSize: true
     }
   }
 }); }

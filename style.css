@@ -359,10 +359,7 @@ nav.show div.icon-close {
 /* =========== testimonials =============*/
 #testimonials {
   background: white;
-  display: flex;
-  justify-content: center;
-  align-items: center; /* Adicionado para centralizar verticalmente */
-  height: 100vh; /* Adicionado para garantir que o carrossel seja centralizado verticalmente na tela inteira */
+ 
 }
 
 

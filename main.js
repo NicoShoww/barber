@@ -33,15 +33,15 @@ function changeHeaderWhenScroll() {
 /* Testimonials carousel slider swiper */
 if (document.querySelector('.swiper-container')) {
 const swiper = new Swiper('.swiper-container', {
-  slidesPerView: 2,
+  slidesPerView: 1,
   pagination: {
     el: '.swiper-pagination'
   },
   keyboard: true,
   breakpoints: {
     767: {
-      slidesPerView: 2,
-      setWrapperSize: false
+      slidesPerView: 1,
+      setWrapperSize: True
     }
   }
 }); }
